@@ -1,0 +1,224 @@
+body, html{
+    @media screen and (min-width:1025px) and (max-height: 56vw) {
+        html, body{
+           font-size: 1.48vh; // 1080px
+        }
+
+        .body{
+            @include flex(column, center, false, false);
+        }
+
+        .body__header{
+            width: em(1920);
+        }
+    }
+
+    @media  screen and (max-width:1025px){
+        html, body{
+            font-size: 4.262dvw; // 375px
+            background-image: url(/img/BG/bgMob.png);
+            background-size: 100% 100%;
+            background-position: unset;
+        }
+
+        .body{
+            padding-top: em(24);
+        }
+        
+        .body__header{
+            padding: 0 0 em(30) 0;
+            width: em(328);
+            margin: 0 auto;
+            position: static;
+        
+            &--logo{
+                width: em(123);
+            }
+        
+            &--singUp{
+                border-radius: em(14);
+                a{
+                    font-size: em(15);
+                    padding: em(8) em(18);
+                }
+            }
+        }
+        
+        .body__uWin{
+            padding: 0 em(60);
+            // width: 100%;
+            height: em(81);
+            
+            &--mainTx{
+                font-size: em(26);
+            }
+        
+            &--bonusTx{
+                .uWinT{
+                    font-size: em(14);
+                }
+                .fsT{
+                    font-size: em(18);
+                }
+            }
+        }
+        
+        .body__wheel{
+            padding-top: em(55);
+            transform: translateX(em(-4));
+        
+            &--bg{
+                width: em(350);
+                height: em(350);
+            }
+        
+            &--center{
+                width: em(88);
+                height: em(88);
+
+                p{
+                    font-size: em(16);
+                }
+            }
+        
+            &--lights{
+                width: 91%;
+                transform: translate(em(-1), em(4));
+            }
+        
+            &--arr{
+                width: em(190);
+                right: em(-9);
+                transform: translateY(em(-3)) rotate(1deg);
+        
+                .light1{
+                    right: em(15);
+                }
+        
+                .light2{
+                    right: em(39);
+                    top: em(3);
+                    width: em(150);
+                }
+        
+                .light3{
+                    width: em(150);
+                    right: em(36);
+                    bottom: em(-1);
+                }
+        
+                .light4{
+                    width: em(30);
+                    right: em(3);
+                }
+            }
+        }
+
+        .fa {
+            font-size: em(11);
+        }
+        
+        .cashback{
+            font-size: em(10);
+        }
+
+        .body__candy{
+            padding-top: em(10);
+
+            &--el{
+                width: em(50);
+            }
+        }
+
+        .popUp{
+            &__cloud{
+                &--left{
+                    width: em(788);
+                    bottom: em(-10);
+                    left: em(-535);
+                }
+        
+                &--right{
+                    width: em(950);
+                    bottom: em(-40);
+                    right: em(-575);
+                }
+            }
+        }
+
+        .popUp__body{
+            // padding: em(95) em(70) em(60) em(80);
+            padding: em(95) em(50) em(60) em(60);
+            transform: translateX(em(-4));
+            gap: em(16);
+        
+            &--title{
+                .congrat{
+                    font-size: em(24);
+                }
+                .uWon{
+                    font-size: em(16);
+                }
+            }
+        
+            &--prize{
+                .bonus{
+                    font-size: em(36);
+                }
+                .fs{
+                    font-size: em(26);
+                }
+            }
+        
+            &--singUp{
+                width: em(270);
+                height: em(54);
+                a{
+                    font-size: em(18);
+                }
+                // span{
+                //     font-size: em(18);
+                // }
+            }
+        }
+
+        .form{
+            gap: em(16);
+        
+            &__Elwrap{
+                width: em(283);
+                gap: em(12);
+            }
+
+            &__agreeBlock{
+                gap: em(8);
+        
+                &--text{
+                    @include text(#fff, em(12), 400, 120%);
+                }
+            }
+        }
+
+        .field {
+            height: em(48);
+        }
+
+        .iconResp{
+            margin: 0 em(8);
+        }
+
+        .error {
+            padding: em(2) em(10);
+            @include text(#fff, .75em, 400, 1em);
+          }
+    }
+
+    @media  screen and (max-width:1025px) and (max-height:175vw){
+        html, body{
+            font-size: 2.45dvh;
+            background-image: url(/img/BG/bg.png);
+            background-size: cover;
+            background-position: 50%;
+        }
+    }
+}

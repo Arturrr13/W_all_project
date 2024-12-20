@@ -1,0 +1,23 @@
+@use "sass:math";
+@mixin text($c, $fs, $fw, $lh){
+    color: $c;
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+}
+
+@mixin flex($fd, $ai, $jc, $g){
+    display: flex;
+    @if $fd {
+        flex-direction: $fd;
+    }
+    @if $ai {
+        align-items: $ai;
+    }
+    @if $jc {
+        justify-content: $jc;
+    }
+    @if $g {
+        gap: $g;
+    }
+}

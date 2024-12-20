@@ -1,0 +1,167 @@
+body, html{
+    @media screen and (min-width:1025px) and (max-height: 56vw) {
+        html, body{
+           font-size: 1.48vh; // 1080px
+        }
+    }
+
+    @media  screen and (max-width:1025px){
+        html, body{
+            font-size: 5dvw; // 320px
+        }
+
+        .content{
+            padding: 0 em(10);
+            .mainBtn{
+                position: absolute;
+                bottom: em(16);
+                width: 93.55%; // 300px
+            }
+        }
+
+        .logo{
+            width: em(120);
+            padding: em(16) 0 em(10);
+        }
+
+        .coeff__wrapper{
+            padding-bottom: em(8);
+            &--item{
+                width: em(96);
+                padding: em(8);
+                border-radius: em(8);
+
+                span{
+                    font-size: 1em;
+                }
+        
+                .border{
+                    height: em(16);
+                }
+            }
+        }
+
+        .bet__wrapper{
+            padding: em(12);
+            border-radius: em(8);
+            box-shadow: 0 em(10) em(20) 0 rgba(4, 17, 61, 0.70);
+            gap: em(12);
+            .title{
+                &--mainStyle{
+                    font-size: .75em;
+                }
+            }
+
+            .input__wrapper{
+                &--leftText, &--rightText{
+                    font-size: .75em;
+                }
+            
+                &--leftText{
+                    padding-right: 0.875em;
+                    left: em(8);
+                }
+            
+                &--rightText{
+                    right: em(8);
+                }
+            }
+
+            input[type=text]{
+                padding: em(8);
+                padding-left: em(90);
+                font-size: .875em;
+            }
+        }
+
+        .win__wrapper{
+            padding: em(8) 0;
+            font-size: 1.125em;
+        }
+
+        .resp__block{
+            gap: em(25);
+            padding-bottom: 0;
+            padding-top: em(16);
+            flex-direction: column-reverse;
+            &--top{
+                @include flex(column, center, center, false)
+            }
+
+            &--clLogo{
+                width: em(80);
+                padding: 0 0 em(25) 0;
+            }
+        
+            &--date{
+                font-size: .875em;
+                max-width: em(80);
+            }
+        
+            &--gameInfo{
+                max-width: 100%;
+                border-radius: em(8);
+                padding: em(8) 0;
+                p{
+                    font-size: .875em;
+                }
+            }
+        }
+
+        .teams{
+            width: em(300);
+            top: unset;
+            bottom: em(140);
+            &--style{
+                width: em(100);
+                height: em(100);
+                padding: em(13);
+            }
+        }
+
+        .characters{
+            width: em(340);
+            bottom: em(-15);
+            transform: translateX(em(-2));
+            justify-content: flex-end;
+            &--left{
+                width: em(214);
+                position: absolute;
+                left: em(2);
+                z-index: 1;
+            }
+            &--right{
+                width: em(214);
+            }
+        }
+
+        .mainBtn{
+            font-size: em(20);
+            &--style2{
+                font-size: em(16);
+                padding: em(8) 0;
+            }
+        }
+
+        input[type=number],
+        input[type=email],
+        input[type=password],
+        input[type=text]{
+            border-radius: em(6);
+        }
+    }
+
+    @media  screen and (max-width:760px){
+        html, body{
+            background-image: url(/img/bgMob.png);
+            background-size: 100% 100%;
+            background-position: unset;
+        }
+    }
+
+    @media  screen and (max-width:1025px) and (max-height:175vw){
+        html, body{
+            font-size: 2.85dvh;
+        }
+    }
+}

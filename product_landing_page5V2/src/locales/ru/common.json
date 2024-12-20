@@ -1,0 +1,137 @@
+{
+  "title": "Title",
+  "form": {
+    "registration": "Registration",
+    "email": "Email",
+    "password": "Пароль",
+    "phone": "Phone number",
+    "createAccount": "Создать аккаунт",
+    "iAgreeWith": "Ставя галочку в этом поле для регистрации на сайте, пользователь подтверждает, что ему больше 18 лет, и что он прочитал, понял и принял ",
+    "termsAndConditions": "Условия и положения.",
+    "emailPl": "Введите адрес электронной почты",
+    "passwordPl": "Введите ваш пароль"
+  },
+  "errors": {
+    "CAPTCHA_ERROR": "CAPTCHA ERROR",
+    "EMAIL_BLANK": "EMAIL BLANK",
+    "EMAIL_MAX_LENGTH": "EMAIL MAX. LENGTH",
+    "EMAIL_INCORRECT_FORMAT": "EMAIL INCORRECT FORMAT",
+    "EMAIL_ALREADY_TAKEN": "EMAIL ALREADY TAKEN",
+    "PHONE_NUMBER_BLANK": "PHONE NUMBER BLANK",
+    "PHONE_NUMBER_INCORRECT_FORMAT": "PHONE NUMBER INCORRECT FORMAT",
+    "PHONE_NUMBER_FORBIDDEN": "PHONE NUMBER FORBIDDEN",
+    "PHONE_NUMBER_TAKEN": "PHONE NUMBER TAKEN",
+    "PASSWORD_BLANK": "PASSWORD BLANK",
+    "PASSWORD_INCORRECT_FORMAT_NO_UPPER_CASE": "PASSWORD INCORRECT FORMAT NO UPPER CASE",
+    "PASSWORD_INCORRECT_FORMAT_NO_DIGIT": "PASSWORD INCORRECT FORMAT NO DIGIT",
+    "PASSWORD_INCORRECT_FORMAT": "PASSWORD INCORRECT FORMAT",
+    "LANGUAGE_BLANK": "LANGUAGE BLANK",
+    "UNDEFINED_ERROR": "UNDEFINED ERROR"
+  },
+  "validation": {
+    "emailFormat": "Wrong email format",
+    "emailRequired": "Email is required",
+    "passwordFormat": "Incorrect password format",
+    "passwordRequired": "Password is required",
+    "passwordNoUppercase": "Password must include uppercase",
+    "passwordNoDigit": "Password must include numbers",
+    "passwordMinLength": "Minimum length is {{count}} characters",
+    "phoneFormat": "Wrong phone format",
+    "phoneRequired": "Phone is required",
+    "maxLength": "Maximum length is {{count}}"
+  },
+  "main": {
+    "wb": "ПРИВЕТСТВЕННЫЙ БОНУС",
+    "bonus": "200",
+    "bonusFs": "ФРИ СПИНОВ",
+    "bonusSec": "300% ДО",
+    "bonusSecB": "433 000 RUB",
+    "reg": "Зарегистрироваться",
+    "newCas": "Best new",
+    "newCasSec": "casino",
+    "nom": "НОМИНАЦИЯ ",
+    "uGames": "4000+ ваших любимых игр",
+    "uGamesBtn": "Играть в 4000+ игр",
+    "token": "Токен WEFT - новый этап в эволюции iGaming!",
+    "tokenEnj": "Зарабатывайте до 300% прибыли с Hold2Earn!",
+    "tokenSlider": {
+      "1": {
+        "f": false,
+        "b": "Каждый лояльный участник",
+        "s": " - настоящий выгодополучатель!"
+      },
+      "2": {
+        "f": "Получайте процент от ",
+        "b": "прибыли платформы!",
+        "s": false
+      },
+      "3": {
+        "f": "Откройте ",
+        "b": "эксклюзивные преимущества ",
+        "s": "с токеном WEFT!"
+      }
+    },
+    "tokenBtn": "Стать держателем WEFT",
+    "vip": "VIP-программа",
+    "vipSec": "Оцените преимущества индивидуального VIP-обслуживания уже сегодня!",
+    "vipAmount": 171500000,
+    "vipCurrency": "RUB",
+    "counter": 123916,
+    "vipSlider": {
+      "1": {
+        "tt": "До 173 000 000 RUB",
+        "tb": "увеличенные джекпоты"
+      },
+      "2": {
+        "tt": "KYC не требуется",
+        "tb": "для криптоплатежей"
+      },
+      "3": {
+        "tt": "Личный VIP-менеджер",
+        "tb": "доступный 24/7"
+      }
+      ,
+      "4": {
+        "tt": "Приоритетное членство",
+        "tb": "при депозите от 10к USDT"
+      },
+      "5": {
+        "tt": "Индивидуально настраиваемая",
+        "tb": "система VIP- вознаграждений"
+      }
+    },
+    "vipBtn": "Стать VIP",
+    "prizes": "ТУРНИРЫ КАЖДУЮ НЕДЕЛЮ",
+    "prizesSec": "ПОЛУЧИТЕ ",
+    "prizesSecAmount": "100 000 000",
+    "prizesTh": "WEFT В НАГРАДУ",
+    "prizesBtn": "Забрать свой приз!",
+
+    "playWin1": "200 <small>ФРИ СПИНОВ</small>",
+    "playWin2": "300% ДО",
+    "playWin3": "433 000 RUB",
+
+
+    "prizesSlide1": "28,000,000 rub",
+    "prizesSlide2": "186,500,000 rub",
+
+    "prizeSlider":{
+      "1": {
+        "name": "Drops & Wins Slots",
+        "amount": "3 790 000 RUB"
+      },
+      "2": {
+          "name": "Crash & Win",
+          "amount": "330 000 RUB"
+      },
+      "3": {
+          "name": "WEFT Showdown",
+          "amount": "20 000 WEFT"
+      },
+      "4": {
+          "name": "WEISS Neon Ride",
+          "amount": "100 000 WEFT"
+      }
+    }
+  }
+}

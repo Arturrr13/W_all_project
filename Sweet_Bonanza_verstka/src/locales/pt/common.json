@@ -1,0 +1,26 @@
+{
+  "title": "Title",
+  "banner": {
+    "SignUp" : "Inscreva-se",
+    "uWin": "GIRAR PARA GANHAR!",
+    "uWinT": "Você ganhou",
+    "bonus": "BÔNUS DE",
+    "fs": " RODADAS GRÁTIS",
+    "center": "GIRAR",
+    "congrat": "Parabéns!",
+    "uWon": "Você ganhou:",
+    "spinAgain" : "DE NOVO"
+  },
+  "wheel": {
+    "cashback": "40% REEMBOLSO",
+    "usdt": "100 Usdt",
+    "bonus": "BÔNUS DE 100%",
+    "fs": "70 FS",
+    "doge": "150 DOGE",
+    "tr": "DE NOVO",
+    "btc": "1 btc",
+    "bonus2": "BÔNUS DE 200%",
+    "fs2": "200 FS",
+    "trx": "250 TRX"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "title": "Title",
+    "banner": {
+      "SignUp" : "Registrovat",
+      "uWin": "ZATOČTE A VYHRAJTE!",
+      "uWinT": "Vyhrál jsi",
+      "bonus": "BONUS",
+      "fs": " VOLNÝCH OTÁČEK",
+      "center": "TOČIT",
+      "congrat": "Gratuluji!",
+      "uWon": "Vyhrál jsi:",
+      "spinAgain" : "ZNOVU"
+    },
+    "wheel": {
+      "cashback": "40% CASHBACK",
+      "usdt": "100 Usdt",
+      "bonus": "100% bonus",
+      "fs": "70 FS",
+      "doge": "150 DOGE",
+      "tr": "ZNOVU",
+      "btc": "1 btc",
+      "bonus2": "200% bonus",
+      "fs2": "200 FS",
+      "trx": "250 TRX"
+    }
+}

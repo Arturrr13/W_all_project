@@ -1,0 +1,26 @@
+{
+  "title": "Title",
+  "banner": {
+    "SignUp" : "Registrera dig",
+    "uWin": "SNURRA FÖR ATT VINNA!",
+    "uWinT": "Du har vunnit",
+    "bonus": "BONUS",
+    "fs": " GRATIS SNURR",
+    "center": "SNURRA",
+    "congrat": "Grattis!",
+    "uWon": "Du har vunnit:",
+    "spinAgain" : "IGEN"
+  },
+  "wheel": {
+    "cashback": "40% CASHBACK",
+    "usdt": "100 Usdt",
+    "bonus": "100% bonus",
+    "fs": "70 FS",
+    "doge": "150 DOGE",
+    "tr": "IGEN",
+    "btc": "1 btc",
+    "bonus2": "200% bonus",
+    "fs2": "200 FS",
+    "trx": "250 TRX"
+  }
+}

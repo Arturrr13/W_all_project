@@ -1,0 +1,639 @@
+
+
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+
+    <script>
+        const searchString = new URLSearchParams(window.location.search);
+        searchString.delete('adtag');
+        searchString.toString();
+    </script>
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>WEISS!!! Бонусы. Ставки на спорт. Онлайн казино</title>
+    <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <link rel="stylesheet" href="public/bundle.css?v=3.015" />
+    <link rel="stylesheet" href="/common/css/loader.css?v=3.002" />
+    <meta name="robots" content="noindex, nofollow" />
+
+    <script type="text/javascript">
+        window.nnbonus = "12";
+        window.landing_type = "modal_registration";
+    </script>
+</head>
+
+<body>
+      <div class="js-wrapper">
+        <div class="bg"></div>
+        <!-- <picture>
+                <source srcset="public/images/left-mob.png" media="(orientation: portrait)">
+                 <img src="public/images/left.svg" alt="" class="left">
+            </picture> -->
+         <img src="public/images/right.svg" alt="" class="right">
+        <div class="person-left for-desk">
+            <div class="person-shine"></div>
+            <picture>
+                <source srcset="public/images/one.png" media="(orientation: portrait)">
+                <img src="public/images/person-left.png" class="person for-desk" alt="">
+            </picture>
+        </div>
+        <div class="gradient"></div>
+        <div class="person-right for-desk">
+            <div class="person-shine"></div>
+            <picture>
+                <source srcset="public/images/one.png" media="(orientation: portrait)">
+                <img src="public/images/person-right.png" class="person for-desk" alt="">
+            </picture>
+        </div>
+        <div class="block-click start for-desk">
+            <div class="btn-start start">
+                <span>Крутить</span>
+            </div>
+        </div>
+        <div class="persons-mob for-mob">
+            <picture>
+                <source srcset="public/images/one.png" media="(orientation: landscape)">
+                <img src="public/images/person-mob.png" alt="" class="persons-mob for-mob">
+            </picture>
+        </div>
+        <header class="header">
+            <div class="o-container">
+                <div class="header-left">
+                    <div data-id="logo" class="logo" data-toggle="modal" data-target="#modalRegistration"
+                        data-dismiss="modal">
+                        <img src="public/images/logo.png" alt="STAWKI.BET  Бонуси. Ставки на спорт. Онлайн казино" />
+                    </div>
+                </div>
+                <!-- <div class="header-right">
+                    <div class="header__btn" data-toggle="modal" data-target="#modalRegistration" data-dismiss="modal">
+                         Регистрация                    </div>
+                </div> -->
+            </div>
+        </header>
+        <div class="main">
+            <div class="game-block start">
+                <img src="public/images/game-bg-front.png" class="game-bg-front" alt="">
+                <div class="game-bg-back"></div>
+                <div class="slots__wrap blink-items start">
+                    <div class="slots__column">
+                        <div class="slots__items" id="slot1">
+                        </div>
+                    </div>
+                    <div class="slots__column">
+                        <div class="slots__items" id="slot2">
+                        </div>
+                    </div>
+                    <div class="slots__column">
+                        <div class="slots__items" id="slot3">
+                        </div>
+                    </div>
+                    <div class="slots__column">
+                        <div class="slots__items" id="slot4">
+                        </div>
+                    </div>
+                    <div class="slots__column">
+                        <div class="slots__items" id="slot5">
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-start start for-mob">
+                    <span>Крутить</span>
+                </div>
+            </div>
+        </div>
+        
+        
+        <style>
+            .footer {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100vw;
+                background: none;
+                z-index: 999;
+                background: #000;
+                height:5.5vh;
+                padding: 0 3.7vh;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+            }
+
+            .footer-container {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                        justify-content: space-between;
+                align-items: center;
+                flex: 1 0 auto;
+            }
+
+            .footer-payments, .footer-apps, .footer-socials {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                align-items: center;
+                flex: 1 1 33.33%;
+            }
+
+            .footer-payments {
+                -webkit-box-pack: start;
+                    -ms-flex-pack: start;
+                        justify-content: flex-start;
+            }
+
+            .footer-apps {
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+            }
+
+            .footer-socials {
+                -webkit-box-pack: end;
+                    -ms-flex-pack: end;
+                        justify-content: flex-end;
+            }
+
+            .footer-payments img {
+                margin-right: 3.7vh;
+            }
+
+            .footer-payments .visa {
+                height: 1.4vh;
+            }
+
+            .footer-payments .mastercard {
+                height: 2.2vh;
+            }
+
+            .age {
+                height: 2.5vh;
+                vertical-align: middle;
+                width: auto;
+            }
+
+            .footer-socials a {
+                  margin-right: 2.7vh;
+                }
+
+            .footer-socials svg {
+                fill:#fff;
+            }
+
+            .c-from__loginWith{
+                display: flex;
+                justify-content: center;
+                gap: 1.5vh;
+            }
+
+            .c-from__loginWith--social{
+                width: 4.5vh;
+                height: 4.5vh;
+                background: #2F396D;
+                border-radius: 0.75vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .c-from__loginWith--social:hover{
+                cursor: pointer;
+            }
+
+            .c-from__loginWith--social svg{
+                width: 2.5vh;
+                height: 2.5vh;
+            }
+
+            .c-from__socialTextWr{
+                width: 100%;
+                padding: 4vh 0 2.5vh;
+            }
+
+            .c-from__or{
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .c-from__or p {
+                font-weight:400;
+                font-size:1.35vh;
+                color:#c2bdb2;
+                background: #281a49;
+                position: relative;
+                width: fit-content;
+                padding: 0 2vh;
+            }
+
+            .c-from__or:before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                background: #c2bdb2;
+            }
+
+            .c-from__promo{
+                padding-top: 4.5vh;
+                font-weight:400;
+                font-size:1.5vh;
+                color:#c2bdb2;
+                text-align: center;
+            }
+
+            .c-from__promo:hover{
+                color: #fff;
+                text-decoration: underline;
+            }
+
+            .modal__timer{
+                background-image: url(./public/images/timer.png);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                position: absolute;
+                top: 76vh;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 27vh;
+                height: 11vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .timer{
+                color: #E8F2F8;
+                font-weight: 700;
+                font-size: 4.5vh;
+                transform: translateY(0.5vh);
+            }
+
+            @media screen and (orientation: portrait) {
+                .footer {
+                    position: relative;
+                    padding: 0 7.2vw;
+                    height:10.6vw;
+                    justify-content: center;
+                }
+
+                .footer-container {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+
+                .footer-payments .visa {
+                    height: 3.8vw;
+                }
+
+                .footer-payments .mastercard {
+                    height: 5.2vw;
+                }
+
+
+                .footer-payments img {
+                    height: 4.9vw;
+                    margin-right:5.3vw;
+                     -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                }
+
+                .age {
+                    height: 5.3vw;
+                }
+                
+
+                .footer-socials a {
+                  margin-right: 5vw!important;
+                }
+
+                .c-from__loginWith{
+                    gap: 2.8vw;
+                }
+
+                .c-from__loginWith--social{
+                    width: 8.8vw;
+                    height: 8.8vw;
+                    border-radius: 1.5vw;
+                }
+
+                .c-from__loginWith--social svg{
+                    width: 5vw;
+                    height: 5vw;
+                }
+
+                .c-from__socialTextWr{
+                    padding: 7.6vw 0 4.5vw;
+                }
+
+                .c-from__or p {
+                    font-size:3vw;
+                    padding: 0 4vw;
+                }
+
+                .c-from__promo{
+                    padding-top: 8vw;
+                    font-size:3.25vw;
+                }
+
+                .modal__timer{
+                    top: 90vw;
+                    left: 50%;
+                    width: 35vw;
+                    height: 14vw;
+                }
+
+                .timer{
+                    font-size: 7vw;
+                    transform: translateY(0.85vw);
+                }
+            }
+        </style>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-payments">
+                    <img src="/framework/frontend/images/visa.png" class="visa" alt="">
+                    <img src="/framework/frontend/images/mastercard.png" class="mastercard" alt="">
+                </div>
+                <!-- <div class="footer-socials">
+                    <a href="https://instagram.com/stawki.bet?igshid=OGQ5ZDc2ODk2ZA==">
+                        <svg class="age" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                            <path d="M18.7818 14C18.7818 14.8544 18.5284 15.6896 18.0537 16.4001C17.5791 17.1105 16.9044 17.6642 16.115 17.9912C15.3256 18.3181 14.457 18.4037 13.619 18.237C12.781 18.0703 12.0113 17.6589 11.4071 17.0547C10.8029 16.4505 10.3915 15.6808 10.2248 14.8428C10.0581 14.0048 10.1437 13.1362 10.4706 12.3468C10.7976 11.5574 11.3513 10.8827 12.0617 10.4081C12.7721 9.93336 13.6074 9.68 14.4618 9.68C15.6071 9.68131 16.7052 10.1369 17.515 10.9467C18.3249 11.7566 18.7805 12.8547 18.7818 14ZM27.9618 8.06V19.94C27.9595 21.9443 27.1623 23.8659 25.745 25.2832C24.3277 26.7005 22.4061 27.4977 20.4018 27.5H8.52179C6.51745 27.4977 4.59586 26.7005 3.17857 25.2832C1.76129 23.8659 0.964062 21.9443 0.961792 19.94V8.06C0.964062 6.05566 1.76129 4.13406 3.17857 2.71678C4.59586 1.2995 6.51745 0.50227 8.52179 0.5H20.4018C22.4061 0.50227 24.3277 1.2995 25.745 2.71678C27.1623 4.13406 27.9595 6.05566 27.9618 8.06ZM20.9418 14C20.9418 12.7184 20.5617 11.4655 19.8497 10.3999C19.1377 9.33427 18.1256 8.50372 16.9416 8.01326C15.7575 7.5228 14.4546 7.39448 13.1976 7.64451C11.9406 7.89454 10.786 8.5117 9.87974 9.41795C8.9735 10.3242 8.35634 11.4788 8.1063 12.7358C7.85627 13.9928 7.9846 15.2957 8.47505 16.4798C8.96551 17.6639 9.79607 18.6759 10.8617 19.3879C11.9273 20.1 13.1802 20.48 14.4618 20.48C16.1798 20.4781 17.8269 19.7947 19.0417 18.5799C20.2565 17.3651 20.9398 15.718 20.9418 14ZM23.1018 6.98C23.1018 6.65959 23.0068 6.34638 22.8288 6.07998C22.6508 5.81357 22.3978 5.60593 22.1017 5.48331C21.8057 5.3607 21.48 5.32862 21.1657 5.39113C20.8515 5.45364 20.5628 5.60793 20.3363 5.83449C20.1097 6.06105 19.9554 6.3497 19.8929 6.66395C19.8304 6.9782 19.8625 7.30393 19.9851 7.59995C20.1077 7.89596 20.3154 8.14897 20.5818 8.32698C20.8482 8.50499 21.1614 8.6 21.4818 8.6C21.9114 8.6 22.3235 8.42932 22.6273 8.12551C22.9311 7.8217 23.1018 7.40965 23.1018 6.98Z"/>
+                        </svg>
+                    </a>
+                    <a href="https://t.me/+GYWPANlkBSUyNDEy">
+                        <svg class="age" xmlns="http://www.w3.org/2000/svg" width="34" height="28" viewBox="0 0 34 28" fill="none">
+                            <path d="M33.5993 1.06215C33.4597 0.698738 33.3201 0.607886 33.1341 0.562461C32.6223 0.380757 31.8314 0.653312 31.8314 0.653312C31.7849 0.607886 2.4293 10.9196 0.754492 12.0552C0.382313 12.2823 0.289269 12.464 0.196224 12.6003C-0.0829101 13.418 0.801015 13.7814 0.801015 13.7814L8.38416 16.189C8.38416 16.189 8.66329 16.189 8.75634 16.189C10.4777 15.1442 26.0627 5.51388 26.9466 5.1959C27.0861 5.1959 27.1792 5.1959 27.1792 5.28675C26.807 6.51325 13.269 18.2785 13.269 18.2785C13.269 18.2785 13.2225 18.324 13.176 18.4148L12.4781 25.7284C12.4781 25.7284 12.199 27.9543 14.4786 25.7284C16.1069 24.1385 17.6886 22.8211 18.433 22.1852C21.0382 23.9568 23.8296 25.8647 25.0392 26.9095C25.644 27.4091 26.1557 27.5 26.5744 27.5C27.7375 27.5 28.0631 26.2281 28.0631 26.2281C28.0631 26.2281 33.4132 5.1959 33.5993 2.3795C33.5993 2.10694 33.5993 1.92524 33.5993 1.74353C33.5993 1.47098 33.5993 1.19842 33.5528 1.10757L33.5993 1.06215Z"/>
+                        </svg>
+                    </a>
+                    <img src="/framework/frontend/images/social-icon-1.png" alt="" class="age">
+                </div> -->
+            </div>
+        </footer>    </div>
+
+    <div class="modal-wrap more">
+        <div class="modal-b">
+            <div class="modal__content">
+                <div class="btn-main btn-more">спробуй ще!</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-wrap victory">
+        <div class="modal-b">
+            <div class="modal__content" data-toggle="modal" data-target="#modalRegistration" data-dismiss="modal"
+                data-id="registration-button">
+                <picture>
+                    <source srcset="public/images/pop-bg-mob-ru.png" media="(orientation: portrait)">
+                    <img src="public/images/pop-bg-ru.png" alt="" class="pop-bg">
+                </picture>
+                
+                <div class="btn-main btn-redirect" data-toggle="modal" data-target="#modalRegistration" data-dismiss="modal"
+                    data-id="registration-button"
+                >
+                    <span>Забрать</span>
+                </div>
+
+                <div class="modal__timer">
+                    <p class="timer">
+                        40:00
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Registration -->
+    <!-- <div class="modal fade modal-custom modal-custom-scrollbar" data-keyboard="false" data-backdrop="static"
+        id="modalRegistration" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content active">
+                <a href="#" class="close modal-close" data-dismiss="modal" aria-label="Close">
+                    <span class="icon-close"></span>
+                </a>
+                <div class="modal-body modal-terms">
+                    <div class="modal-title">Регистрация</div>
+                    <div class="c-reg__form">
+                        <form id="formReg" class="c-form c-form-light notValid" autocomplete="off" action="#"
+                            onsubmit="return false;" method="post">
+                            <input type="hidden" name="nnbonus" value="12" />
+                            <input type="hidden" name="lang" value="ru" />
+                            <div class="c-form__group c-phone-email">
+                                <input class="c-form__input" id="email" type="email" name="email" data-name="email"
+                                    data-valid="false" required="required">
+                                <label class="c-form__group-label" for="email">Почта</label>
+                            </div>
+
+                            <div class="c-form__group">
+                                <div class="c-form__group">
+                                    <a href="#" class="c-form__icon js-btn-toggle-pass"><span
+                                            class="icon-eye-closed"></span></a>
+                                    <a href="#" class="c-form__icon c-form__icon-second js-btn-clear-pass"
+                                        style="display:none;"><span class="icon-clear-filled"></span></a>
+                                    <input class="c-form__input  js-password stawki-reg-field-password"
+                                        autocomplete="passwd" type="password" id="passwd" name="passwd"
+                                        placeholder="Пароль" required="required">
+                                    <label class="c-form__group-label" for="passwd">Пароль</label>
+                                </div>
+                                <div class="passwordMessages"></div>
+                            </div>
+                            <div class="c-form__group">
+                                <div class="c-form__checkbox">
+                                    <input type="checkbox" name="bonus" id="get-bonus" checked="checked"
+                                        class="stawki-reg-field-isbonusactivated">
+                                    <label for="get-bonus">
+                                        Установив отметку в этом поле при регистрации на данном сайте, пользователь подтверждает, что ему исполнилось 18 лет, и что он прочел, понял и принял
+                                        <div data-toggle="modal" data-target="#modalTerms" data-dismiss="modal"
+                                            class="rlink small stawki-reg-bonus-rules">Правила и условия.</div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div id="errormsg" class="c-form__error js-form-error" style="display: none;"></div>
+                            <div class="c-form__footer">
+                                <button type="button" class="c-btn c-btn--large stawki-reg-field-submit"
+                                    disabled="disabled">
+                                    <span class="c-btn__text">Создать учетную запись</span>
+                                </button>
+                            </div>
+                            <div class="c-from__socialTextWr">
+                                <div class="c-from__or">
+                                    <p>
+                                        Или регистрация с:
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="c-from__loginWith">
+                                <div class="c-from__loginWith--social">
+                                    <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19.2097 0.154676C19.2097 0.154676 21.1517 -0.603324 20.9897 1.23668C20.9367 1.99368 20.4497 4.64468 20.0727 7.51269L18.7777 16.0077C18.7777 16.0077 18.6697 17.2517 17.6977 17.4677C16.7277 17.6847 15.2697 16.7107 14.9997 16.4947C14.7847 16.3327 10.9527 13.8977 9.60371 12.7067C9.22671 12.3827 8.79371 11.7327 9.65771 10.9757L15.3237 5.56568C15.9717 4.91568 16.6187 3.40068 13.9207 5.24068L6.36672 10.3807C6.36672 10.3807 5.50272 10.9207 3.88372 10.4347L0.376724 9.35269C0.376724 9.35269 -0.918272 8.54069 1.29372 7.72969C6.68972 5.18468 13.3277 2.59068 19.2097 0.154676Z" fill="#27A7E7"/>
+                                    </svg>                                        
+                                </div>
+                                <div class="c-from__loginWith--social">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M23.9989 12.2729C23.9989 11.4219 23.9209 10.6029 23.7769 9.81787H12.2439V14.4599H18.8339C18.5499 15.9599 17.6879 17.2309 16.3909 18.0819V21.0929H20.3479C22.6629 19.0029 23.9989 15.9279 23.9989 12.2729Z" fill="#4285F4"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2439 24C15.5499 24 18.3219 22.925 20.3479 21.093L16.3909 18.082C15.2939 18.802 13.8909 19.227 12.2439 19.227C9.05488 19.227 6.35588 17.117 5.39288 14.28H1.30188V17.39C3.31688 21.31 7.45788 24 12.2439 24Z" fill="#34A853"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.39196 14.2799C5.14028 13.546 5.01089 12.7757 5.00896 11.9999C5.00896 11.2099 5.14896 10.4399 5.39296 9.71986V6.60986H1.30296C0.446651 8.27752 0 10.1252 0 11.9999C0 13.8745 0.446651 15.7222 1.30296 17.3899L5.39196 14.2799Z" fill="#FBBC05"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2439 4.773C14.0419 4.773 15.6559 5.378 16.9239 6.567L20.4369 3.125C18.3169 1.19 15.5439 0 12.2439 0C7.4569 0 3.3159 2.69 1.3009 6.611L5.3919 9.721C6.3549 6.884 9.0549 4.773 12.2439 4.773Z" fill="#EA4335"/>
+                                    </svg>                                      
+                                </div>
+                                <div class="c-from__loginWith--social">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <mask id="mask0_2_5" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                        <path d="M0 0H24V24H0V0Z" fill="white"/>
+                                        </mask>
+                                        <g mask="url(#mask0_2_5)">
+                                        <path d="M22.783 1.02393L13.436 7.96493L15.166 3.86993L22.783 1.02393Z" fill="#E2761B" stroke="#E2761B" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1.20703 1.02393L10.479 8.03093L8.83403 3.86993L1.20703 1.02393ZM19.42 17.1139L16.931 20.9279L22.257 22.3929L23.79 17.1999L19.421 17.1149L19.42 17.1139ZM0.220032 17.1989L1.74203 22.3929L7.06903 20.9279L4.57903 17.1139L0.221032 17.1989H0.220032Z" fill="#E4761B" stroke="#E4761B" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M6.76802 10.6699L5.28302 12.9159L10.572 13.1499L10.384 7.46786L6.76802 10.6699ZM17.222 10.6699L13.559 7.40186L13.437 13.1509L18.716 12.9159L17.222 10.6699ZM7.06802 20.9279L10.243 19.3779L7.50002 17.2359L7.06802 20.9279ZM13.747 19.3779L16.931 20.9279L16.49 17.2359L13.747 19.3779Z" fill="#E4761B" stroke="#E4761B" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M16.931 20.9279L13.747 19.3779L14.001 21.4539L13.973 22.3269L16.931 20.9279ZM7.06799 20.9279L10.028 22.3279L10.008 21.4539L10.243 19.3779L7.06799 20.9279Z" fill="#D7C1B3" stroke="#D7C1B3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M10.074 15.865L7.42499 15.085L9.29499 14.23L10.074 15.865ZM13.916 15.865L14.696 14.23L16.574 15.085L13.916 15.865Z" fill="#233447" stroke="#233447" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.06804 20.928L7.51904 17.114L4.57904 17.199L7.06904 20.929L7.06804 20.928ZM16.48 17.114L16.931 20.928L19.421 17.198L16.481 17.114H16.48ZM18.716 12.915L13.436 13.15L13.926 15.865L14.705 14.23L16.584 15.085L18.716 12.915ZM7.42504 15.085L9.30404 14.23L10.074 15.865L10.572 13.15L5.28304 12.915L7.42504 15.085Z" fill="#CD6116" stroke="#CD6116" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5.28302 12.915L7.50002 17.236L7.42502 15.086L5.28302 12.916V12.915ZM16.584 15.085L16.49 17.236L18.716 12.916L16.584 15.086V15.085ZM10.572 13.15L10.074 15.865L10.694 19.068L10.835 14.851L10.572 13.151V13.15ZM13.437 13.15L13.184 14.841L13.296 19.068L13.926 15.865L13.436 13.151L13.437 13.15Z" fill="#E4751F" stroke="#E4751F" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M13.925 15.865L13.295 19.068L13.747 19.378L16.49 17.236L16.584 15.086L13.925 15.866V15.865ZM7.42499 15.085L7.49999 17.236L10.243 19.378L10.694 19.068L10.074 15.865L7.42499 15.085Z" fill="#F6851B" stroke="#F6851B" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M13.972 22.327L14 21.454L13.766 21.247H10.224L10.008 21.454L10.028 22.327L7.06799 20.928L8.10099 21.773L10.196 23.229H13.794L15.898 21.773L16.931 20.928L13.972 22.327Z" fill="#C0AD9E" stroke="#C0AD9E" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M13.747 19.3779L13.297 19.0679H10.694L10.244 19.3779L10.009 21.4539L10.225 21.2469H13.766L14.001 21.4539L13.747 19.3779Z" fill="#161616" stroke="#161616" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M23.178 8.41593L23.977 4.58393L22.784 1.02393L13.747 7.72993L17.223 10.6699L22.135 12.1079L23.225 10.8399L22.755 10.5019L23.507 9.81593L22.924 9.36593L23.676 8.79193L23.178 8.41593ZM0.0230103 4.58393L0.82201 8.41593L0.31501 8.79193L1.06601 9.36493L0.49301 9.81493L1.24501 10.5019L0.77501 10.8399L1.85501 12.1079L6.76801 10.6699L10.243 7.72993L1.20701 1.02393L0.0230103 4.58393Z" fill="#763D16" stroke="#763D16" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M22.135 12.1079L17.222 10.6699L18.716 12.9159L16.49 17.2359L19.42 17.1989H23.789L22.135 12.1079ZM6.76801 10.6699L1.85501 12.1079L0.221008 17.1979H4.57901L7.50101 17.2359L5.28401 12.9159L6.76801 10.6699ZM13.437 13.1499L13.747 7.72987L15.175 3.86987H8.83401L10.244 7.72987L10.572 13.1499L10.685 14.8599L10.695 19.0679H13.295L13.315 14.8599L13.437 13.1499Z" fill="#F6851B" stroke="#F6851B" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </g>
+                                    </svg>                                                                               
+                                </div>
+                            </div>
+                            <div class="c-from__promo">
+                                <p>
+                                    У меня есть промокод
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+<!-- Modal terms -->
+<div class="modal fade modal-custom modal-white_ modal-custom-scrollbar" id="modalTerms" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <a href="#" class="close modal-close" data-dismiss="modal" aria-label="Close">
+                <span class="icon-close"></span>
+            </a>
+            <div class="modal-body modal-terms">
+                <div class="modal-title">Правила и Условия</div>
+                <div class="modal-scrollbar js-scrollbar">
+                    <div class="modal-terms-text s-content s-content--white">
+                        <p><b>ПРАВИЛА БОНУСНОГО ПРЕДЛОЖЕНИЯ К ПЕРВОМУ ДЕПОЗИТУ</b></p>
+
+<p>1. Эти Правила бонусного предложения являются неотъемлемой частью Правил и условий, договора публичной оферты со всеми дополнениями (например, дополнительными условиями, правилами, политиками и др.) и т.д., размещенных на веб-сайте https://stawkibet1.io/ (далее - "Веб-сайт"), и составляют юридически обязательное соглашение между владельцем сайта и поставщиком услуг на Веб сайте (далее - "Букмекерская сеть", "Мы", "Нас" и другие варианты этого термина), с одной стороны, и физическим лицом, которое активирует бонусное предложение на Веб-сайте (включая через мобильные приложения или другим допустимым способом) - (далее по тексту - "Игрок" или "Клиент").</p>
+<p>2. Новым Клиентам доступно бонусное предложение на первый депозит (первое пополнение собственного игрового счета Игрока), при условии, что они зарегистрировались на Веб-сайте, активировали бонусное предложение при регистрации и выполнили условия получения бонусного предложения, изложенные в этих Правилах бонусного предложения, в частности первый депозит должен быть от 500 гривен.</p>
+<p>3. Бонусное предложение можно использовать в течение 5 дней после активации во время регистрации.</p>
+<p>4. Бонус "+ 100% к первому депозиту в казино" (в случае использования специальной реферальной ссылки) будет начислен в течение 72 часов после выполнения условий для начисления, указанных в этих Правилах бонусного предложения. Бонус в виде бесплатной ставки в размере 200 грн - "FreeBet 200 грн" и бонус в виде 100 запусков спинов в игре SUN OF EGYPT 2 - "100 Фриспинов в игре SUN OF EGYPT 2", по этому бонусному предложению, будет начислен в течение 72 часов после успешного отыгрыша бонуса "+100% к первому депозиту в казино", в соответствии с условиями отыгрыша, установленными в п. 5 настоящих Правил бонусного предложения. При обнулении требований к отыгрышу, в соответствии с п. 5.6 настоящих Правил бонусного предложения, считается, что успешного отыгрыша не произошло.</p>
+
+<p><b>5. Условия бонуса "+100% к первому депозиту в казино" к первому депозиту в казино".</b></p>
+<p>5.1. Максимальная сумма бонуса: 40 000 грн. Максимальная сумма для выплаты выигрыша по этому бонусу - х5 фактической стоимости предоставленного бонуса.</p>
+<p>5.2. Бонус в виде дополнительных бонусных средств в размере 100% (в предусмотренных Правилами бонусного предложения случаях) от суммы первого депозита зачисляется на личный игровой счет Игрока на условиях, указанных в п. 4 настоящих Правил бонусного предложения и с отыгрышем в 40-ка кратном размере (чтобы получить возможность вывести бонусные средства, Игроку нужно использовать для игры сумму, которая в 40 раз превышает сумму начисленного бонуса (бонусные средства учитываются). Отыгрыш бонусных средств доступен в разделе "Игры для бонуса" в течение 5 дней после начисления.</p>
+<p>5.3. При отыгрыше бонусов ставки в разных играх учитываются с разным процентом. Информация о процентах в играх размещена на странице Игры для отыгрыша.</p>
+<p>5.4. Проверить прогресс отыгрыша можно на странице этого бонусного предложения.</p>
+<p>5.5. Депозит, который был внесен для получения бонуса, будет зарезервирован системой до момента его отыгрыша. Резервируется сумма, которая не превышает максимальный бонус согласно условиям предложения. Для того чтобы снять любую сумму денег с личного счета Игрока, Клиент должен осуществить отыгрыш бонуса.</p>
+<p>5.6. Требования к отыгрышу, установленные в п. 5.2 настоящих Правил бонусного предложения, автоматически обнуляются, если бонусный баланс Игрока равен 1 грн.</p>
+<p>5.7. Бонусные средства по данному бонусному предложению действительны в течение 5 дней с момента начисления. В случае, если до окончания срока действия этого бонусного предложения не будет осуществлен отыгрыш, бонус и все выигрыши, полученные на бонусные средства, будут аннулированы и списаны с игрового счета Игрока.</p>
+<p>5.8. Букмекерская сеть оставляет за собой право просматривать записи транзакций в любое время и по любой причине. Если во время такой проверки выяснится, что игрок применял стратегии, которые Букмекерская сеть по своему усмотрению считает злонамеренными, Букмекерская сеть может отменить право такого игрока на дальнейшее участие в бонусном предложении и аннулировать и списать со счета бонус и все выигрыши, полученные на бонусные средства.</p>
+
+<p><b>6. Условия бонуса "FreeBet 200 грн.":</b></p>
+<p>6.1. Бонус в виде бесплатной ставки в размере 200 грн - "FreeBet 200 грн", зачисляется на личный игровой счет Игрока на условиях, указанных в п. 4 настоящих Правил бонусного предложения. После окончания срока действия данного предложения, указанного в п. 6.3 настоящих Правил бонусного предложения, FreeBet будет аннулирован и списан со счета.</p>
+<p>6.2. Под "FreeBet" бонусом понимается предоставление Игроку суммы, доступной для размещения ставки на Веб сайте. В случае выигрыша по ставке "FreeBet", клиент получает только сумму выигрыша (без суммы ставки).</p>
+<p>Например: FreeBet: 200 грн, коэффициент ставки: 1.8. В случае выигрыша на личный счет Клиента зачисляется 160 грн (200 грн * 1.8 = 360 грн, 360 грн - 200 грн = 160 грн).</p>
+<p>6.3. Воспользоваться бонусом "FreeBet" можно в течение 5 дней с момента его начисления.</p>
+<p>6.4. Бонус "FreeBet" доступен только для ставок типа "ординар или экспресс" на спорт.</p>
+<p>6.5. "Экспресс" - ставка на одновременный прогноз исходов нескольких независимых друг от друга событий. Выигрыш по "Экспрессу" равен произведению суммы ставки на коэффициент "Экспресса", получаемый путем перемножения коэффициентов исходов всех событий, вошедших в "Экспресс". В "Экспресс" можно включать любую комбинацию исходов не связанных между собой событий любых видов спорта. "Экспресс" считается выигранным, если правильно предсказаны все события без исключения, входящие в него. Проигрыш по одному из исходов означает проигрыш всей ставки данного вида.</p>
+<p>6.6. Максимальный коэффициент события для использования бонуса "FreeBet" - 5.</p>
+<p>6.7. Сумма предоставленного бонуса "FreeBet" может быть использована только для размещения одной ставкой, бонус "FreeBet" не подлежит дроблению на несколько ставок.</p>
+<p>6.8. "Vip-ставка" и "Cashout" недоступны при использовании бонуса "FreeBet".</p>
+<p>6.9. Если сумма ожидаемой выплаты по сделанной с бонусом "FreeBet" ставке меньше суммы ставки или ставка рассчитана с коэффициентом 1 - выплата по бонусу "FreeBet" равна нулю.</p>
+
+<p><b>7. Условия бонуса по бонусному предложению "100 Фриспинов в игре SUN OF EGYPT 2":</b></p>
+<p>7.1. Бонус, в виде 100 запусков спинов в игре SUN OF EGYPT 2 (стоимость 1 спина = 6 грн.), зачисляется на личный игровой счет Игрока на условиях, указанных в п. 4 настоящих Правил бонусного предложения с отыгрышем после 40 запусков спинов Игроком, исчисление которых начинается после использования всех бонусных спинов.</p>
+<p>7.2. Бонус по данному бонусному предложению действителен в течение 5 дней с момента начисления. В случае, если до окончания срока действия этого бонусного предложения не будет осуществлен отыгрыш, бонус и все выигрыши, полученные на бонусные средства, будут аннулированы и списаны с игрового счета Игрока</p>
+<p>7.3. Клиент может в любой момент проверить актуальную информацию о количестве использованных бесплатных спинов во вкладке "Бонусы" раздел "Казино".</p>
+<p>7.4. Максимальный выигрыш при использовании бонуса по бонусному предложению "100 Фриспинов в игре SUN OF EGYPT 2" - 1000 грн.</p>
+<p>7.5. Максимальная сумма для выплаты по бонусному предложению "100 Фриспинов в игре SUN OF EGYPT 2" - х5 фактической стоимости предоставленного бонуса.</p>
+<p>7.6. Для того чтобы снять любую сумму денег с личного счета Игрока, Клиент должен осуществить отыгрыш бонуса.</p>
+<p>7.7. Отыгрыш бонуса доступен только в разделе "Слоты" в играх для отыгрыша.</p>
+<p>7.8. При отыгрыше бонусов по данному предложению, сначала списываются реальные деньги, после чего бонусные.</p>
+<p>7.9. Бонусы автоматически списываются, и их не нужно отыгрывать дальше, если на бонусном балансе игрока остается сумма равная 1 грн.</p>
+<p>8. Бонусное предложение доступно только для одного игрового счета на человека, семью, квартиру, компьютер или IP-адрес. При подозрении на нарушение путем множественных регистраций (поддельные счета, игровые группы) Букмекерская сеть оставляет за собой право аннулировать бонус и все выигрыши, полученные на бонусные средства. В случае регистрации второго аккаунта - он будет удален, а все игровые бонусы и выигрыши могут быть аннулированы.</p>
+<p>9. Букмекерская сеть оставляет за собой право в любое время изменить или отменить бонусное предложение.</p>
+<p>10. Принимая бонус по бонусному предложению, клиент соглашается с изложенными в Правилах бонусного предложения условиями, а также с Правилами и условиями, Договором публичной оферты со всеми дополнениями (например, дополнительными условиями, правилами, политиками и др.)</p>
+<p>11. Бонус к первому депозиту может быть получен 1 раз одним Игроком.</p>
+<p>12. Игрок имеет право отказаться от бонуса, если с момента его начисления не сделано ни одной ставки на сайте https://stawkibet1.io/, в других случаях, отказ осуществляется по согласованию с Букмекерской сетью по обращению Игрока в службу поддержки Букмекерской сети (support@stawki.bet).</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="c-btn c-btn--large" data-toggle="modal"
+                            data-target="#modalRegistration" data-dismiss="modal" aria-label="Close">
+                        <span class="c-btn__text">Принять</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="public/vendor.js?v=38"></script>
+<script src="public/bundle.js??v=38"></script>
+<script src="/common/js/global-password-validation.js?v=1.003"></script>
+<script src="/common/js/validation.js?v=1.003"></script>
+<script src="/common/js/auth-helper-v2.js?v=2.002"></script>
+<script src="/common/js/forms_redirect.js?v=2.003"></script>   
+<script>
+        document.addEventListener("DOMContentLoaded", () => {
+            let param = window.location.search.slice(1);
+            let links = document.getElementsByTagName("a");
+            for (var i = 0; i < links.length; i++) {
+                let link = links[i];
+                if (param && link.hasAttribute("data-link")) {
+                    link.href = link.href + "?" + param;
+                }
+            }
+        });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const btn = document.querySelectorAll('.btn-start')
+        const redirect = document.querySelector('.btn-redirect')
+        let h = 40, s = 6
+        const clock = document.querySelector('.timer')
+
+        btn.forEach((el) => {
+            el.addEventListener('click', () => {
+                const timeinterval = setInterval(() => {
+                    if(s > 0) s --
+                    else{
+                        h--
+                        s = 59
+                    }
+                    clock.innerText = `${h}:${s < 10 ? '0'+s : s}`
+                    if(h <= 0) clearInterval(timeinterval)
+                }, 1000)
+            })
+        })
+
+        redirect.addEventListener('click', (e) => {
+            e.preventDefault()
+            window.location.href = "https://greenflower.me/click?lp=1"
+        })
+    })
+</script>
+</div>
+</body>
+
+</html>

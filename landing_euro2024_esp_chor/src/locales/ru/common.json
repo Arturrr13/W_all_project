@@ -1,0 +1,11 @@
+{
+  "form": {
+    "registration": "Регистрация",
+    "email": "email",
+    "password": "Пароль",
+    "phone": "Телефон",
+    "createAccount": "Создать аккаунт",
+    "iAgreeWith": "Я принимаю",
+    "termsAndConditions": "правила и условия"
+  }
+}

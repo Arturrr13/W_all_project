@@ -1,0 +1,137 @@
+{
+  "title": "Title",
+  "form": {
+    "registration": "Registration",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone number",
+    "createAccount": "Create an account",
+    "iAgreeWith": "By ticking this box to register for this website, the user declares to be over 18 years old and to have read, understood and accepted the",
+    "termsAndConditions": "Terms and Conditions.",
+    "emailPl": "Enter your email",
+    "passwordPl": "Enter your password"
+  },
+  "errors": {
+    "CAPTCHA_ERROR": "CAPTCHA ERROR",
+    "EMAIL_BLANK": "EMAIL BLANK",
+    "EMAIL_MAX_LENGTH": "EMAIL MAX. LENGTH",
+    "EMAIL_INCORRECT_FORMAT": "EMAIL INCORRECT FORMAT",
+    "EMAIL_ALREADY_TAKEN": "EMAIL ALREADY TAKEN",
+    "PHONE_NUMBER_BLANK": "PHONE NUMBER BLANK",
+    "PHONE_NUMBER_INCORRECT_FORMAT": "PHONE NUMBER INCORRECT FORMAT",
+    "PHONE_NUMBER_FORBIDDEN": "PHONE NUMBER FORBIDDEN",
+    "PHONE_NUMBER_TAKEN": "PHONE NUMBER TAKEN",
+    "PASSWORD_BLANK": "PASSWORD BLANK",
+    "PASSWORD_INCORRECT_FORMAT_NO_UPPER_CASE": "PASSWORD INCORRECT FORMAT NO UPPER CASE",
+    "PASSWORD_INCORRECT_FORMAT_NO_DIGIT": "PASSWORD INCORRECT FORMAT NO DIGIT",
+    "PASSWORD_INCORRECT_FORMAT": "PASSWORD INCORRECT FORMAT",
+    "LANGUAGE_BLANK": "LANGUAGE BLANK",
+    "UNDEFINED_ERROR": "UNDEFINED ERROR"
+  },
+  "validation": {
+    "emailFormat": "Wrong email format",
+    "emailRequired": "Email is required",
+    "passwordFormat": "Incorrect password format",
+    "passwordRequired": "Password is required",
+    "passwordNoUppercase": "Password must include uppercase",
+    "passwordNoDigit": "Password must include numbers",
+    "passwordMinLength": "Minimum length is {{count}} characters",
+    "phoneFormat": "Wrong phone format",
+    "phoneRequired": "Phone is required",
+    "maxLength": "Maximum length is {{count}}"
+  },
+  "main": {
+    "wb": "Welcome Bonus",
+    "bonus": "200",
+    "bonusFs": "Free spins",
+    "bonusSec": "300% up to",
+    "bonusSecB": "5000 usdt",
+    "reg": "Registration",
+    "newCas": "Best new",
+    "newCasSec": "casino",
+    "nom": "nomination ",
+    "uGames": "Your favorite games 4000+",
+    "uGamesBtn": "Play 4000+ games",
+    "token": "WEFT Token is the New Step in IGaming Evolution!",
+    "tokenEnj": "Enjoy up to 300% profit with Hold2Earn! ",
+    "tokenSlider": {
+      "1": {
+        "f": false,
+        "b": "Every loyal participant",
+        "s": "is a true beneficiary!"
+      },
+      "2": {
+        "f": "Score a percentage of the",
+        "b": "platform's profits!",
+        "s": false
+      },
+      "3": {
+        "f": "Unlock",
+        "b": "exclusive benefits",
+        "s": "with WEFT tokens!"
+      }
+    },
+    "tokenBtn": "Become WEFT holder",
+    "vip": "VIP Program",
+    "vipSec": "Experience the benefits of personalized VIP treatment today!",
+    "vipAmount": 2000000,
+    "vipCurrency": "USDT",
+    "counter": 2391,
+    "vipSlider": {
+      "1": {
+        "tt": "Up to 2 000 000 USDT",
+        "tb": "increased jackpots"
+      },
+      "2": {
+        "tt": "No KYC needed",
+        "tb": "for crypto-payments"
+      },
+      "3": {
+        "tt": "A private VIP manager",
+        "tb": "available 24/7"
+      }
+      ,
+      "4": {
+        "tt": "Priority membership",
+        "tb": "from 10K USDT deposit"
+      },
+      "5": {
+        "tt": "Individually customized",
+        "tb": "VIP rewards system"
+      }
+    },
+    "vipBtn": "Become a VIP",
+    "prizes": "Tournaments every week",
+    "prizesSec": "GET ",
+    "prizesSecAmount": "100 000 000",
+    "prizesTh": "REWARDS WEFT",
+    "prizesBtn": "Win amazing prizes!",
+
+    "playWin1": "200 FREE SPINS",
+    "playWin2": "300% UP TO",
+    "playWin3": "5000 usdt",
+
+
+    "prizesSlide1": "325,000 usdt",
+    "prizesSlide2": "2,160,000 usdt",
+
+    "prizeSlider":{
+      "1": {
+        "name": "Drops & Wins Slots",
+        "amount": "43 500 usdt"
+      },
+      "2": {
+          "name": "Crash & Win",
+          "amount": "3 800 usdt"
+      },
+      "3": {
+          "name": "WEFT Showdown",
+          "amount": "20 000 WEFT"
+      },
+      "4": {
+          "name": "WEISS Neon Ride",
+          "amount": "100 000 WEFT"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "title": "Title",
+    "banner": {
+      "SignUp" : "Registrieren",
+      "uWin": "DREHE UM ZU GEWINNEN!",
+      "uWinT": "Du gewonnen",
+      "bonus": "BONUS",
+      "fs": " FREISPIELE",
+      "center": "DREHEN",
+      "congrat": "Herzlichen Glückwunsch!",
+      "uWon": "Du hast gewonnen:",
+      "spinAgain" : "DREHEN"
+    },
+    "wheel": {
+      "cashback": "40% CASHBACK",
+      "usdt": "100 Usdt",
+      "bonus": "100% bonus",
+      "fs": "70 FS",
+      "doge": "150 DOGE",
+      "tr": "NOCHMAL",
+      "btc": "1 btc",
+      "bonus2": "200% bonus",
+      "fs2": "200 FS",
+      "trx": "250 TRX"
+    }
+}

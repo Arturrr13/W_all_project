@@ -1,0 +1,27 @@
+{
+  "form": {
+    "registration": "Regisztráció",
+    "email": "e-mail",
+    "password": "Jelszó",
+    "phone": "Telefonszám",
+    "createAccount": "Fiók létrehozása",
+    "iAgreeWith": "Concordo com os",
+    "termsAndConditions": "termos e condições"
+  },
+  "errors": {
+    "CAPTCHA_ERROR": "CAPTCHA HIBA",
+    "EMAIL_BLANK": "E-MAIL ÜRES",
+    "EMAIL_MAX_LENGTH": "E-MAIL MAX. HOSSZ",
+    "EMAIL_INCORRECT_FORMAT": "E-MAIL HELYTELEN FORMÁTUM",
+    "EMAIL_ALREADY_TAKEN": "AZ E-MAIL MÁR FOGLALT",
+    "PHONE_NUMBER_BLANK": "TELEFONSZÁM ÜRES",
+    "PHONE_NUMBER_INCORRECT_FORMAT": "TELEFONSZÁM HELYTELEN FORMÁTUM",
+    "PHONE_NUMBER_FORBIDDEN": "TELEFONSZÁM TILTOTT",
+    "PHONE_NUMBER_TAKEN": "A TELEFONSZÁM FOGLALT",
+    "PASSWORD_BLANK": "A JELSZÓ ÜRES",
+    "PASSWORD_INCORRECT_FORMAT_NO_UPPER_CASE": "HELYTELEN JELSZÓFORMÁTUM NINCS NAGYBETŰ",
+    "PASSWORD_INCORRECT_FORMAT_NO_DIGIT": "HELYTELEN JELSZÓFORMÁTUM NINCS SZÁM",
+    "PASSWORD_INCORRECT_FORMAT": "HELYTELEN JELSZÓFORMÁTUM",
+    "LANGUAGE_BLANK": "NYELV ÜRES"
+  }
+}

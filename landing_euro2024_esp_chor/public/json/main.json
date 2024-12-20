@@ -1,0 +1,33 @@
+{
+    "coeff": {
+        "p1": {
+            "name": "P1",
+            "value": "1.84"
+        },
+        "x": {
+            "name": "X",
+            "value": "3.67"
+        },
+        "p2": {
+            "name": "P2",
+            "value": "4.75"
+        }
+    },
+    "t1": "Choose coefficient and know your win!",
+    "t2": "YOUR WIN:",
+    "date": "JUNE 15, 19:00",
+    "t3F": "Make a $50 deposit and claim your ",
+    "t3G": "$50 bonus",
+    "t3S": "above the button",
+    "btnGB": "GET BONUS",
+    "popUp": {
+        "titleF": "Your ",
+        "titleG": "success ",
+        "titleS": "in betting starts here!",
+        "t1": "Find out the exact forecast from our experts and place a winning bet!  Join thousands of successful players who already use our analytical  data. Hurry, the offer is limited!",
+        "btn1": "GOT IT!",
+        "cBox": "By ticking this box to register for this website, the user declares to be over 18 years old and to have read, understood and accepted the",
+        "cBoxLink": "Terms and Conditions.",
+        "btn2": "SIGN UP"
+    }
+}

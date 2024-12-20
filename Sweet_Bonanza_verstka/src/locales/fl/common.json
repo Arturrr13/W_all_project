@@ -1,0 +1,26 @@
+{
+    "title": "Title",
+    "banner": {
+      "SignUp" : "Rekisteröidy",
+      "uWin": "PYÖRÄTÄ VOITTAASI!",
+      "uWinT": "Olet voittanut",
+      "bonus": "BONUS",
+      "fs": " ILMAISKIERROSTA",
+      "center": "DRAAI",
+      "congrat": "Onnittelut!",
+      "uWon": "Olet voittanut:",
+      "spinAgain" : "UUDESTAAN"
+    },
+    "wheel": {
+      "cashback": "40% CASHBACK",
+      "usdt": "100 Usdt",
+      "bonus": "100% bonus",
+      "fs": "70 FS",
+      "doge": "150 DOGE",
+      "tr": "OPNIEUW",
+      "btc": "1 btc",
+      "bonus2": "200% bonus",
+      "fs2": "200 FS",
+      "trx": "250 TRX"
+    }
+}

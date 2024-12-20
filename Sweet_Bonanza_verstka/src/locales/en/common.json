@@ -1,0 +1,65 @@
+{
+  "title": "Title",
+  "lorem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "form": {
+    "registration": "Registration",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone number",
+    "createAccount": "Create an account",
+    "iAgreeWith": "I agree with",
+    "termsAndConditions": "terms and conditions"
+  },
+  "errors": {
+    "CAPTCHA_ERROR": "CAPTCHA ERROR",
+    "EMAIL_BLANK": "EMAIL BLANK",
+    "EMAIL_MAX_LENGTH": "EMAIL MAX. LENGTH",
+    "EMAIL_INCORRECT_FORMAT": "EMAIL INCORRECT FORMAT",
+    "EMAIL_ALREADY_TAKEN": "EMAIL ALREADY TAKEN",
+    "PHONE_NUMBER_BLANK": "PHONE NUMBER BLANK",
+    "PHONE_NUMBER_INCORRECT_FORMAT": "PHONE NUMBER INCORRECT FORMAT",
+    "PHONE_NUMBER_FORBIDDEN": "PHONE NUMBER FORBIDDEN",
+    "PHONE_NUMBER_TAKEN": "PHONE NUMBER TAKEN",
+    "PASSWORD_BLANK": "PASSWORD BLANK",
+    "PASSWORD_INCORRECT_FORMAT_NO_UPPER_CASE": "PASSWORD INCORRECT FORMAT NO UPPER CASE",
+    "PASSWORD_INCORRECT_FORMAT_NO_DIGIT": "PASSWORD INCORRECT FORMAT NO DIGIT",
+    "PASSWORD_INCORRECT_FORMAT": "PASSWORD INCORRECT FORMAT",
+    "LANGUAGE_BLANK": "LANGUAGE BLANK",
+    "UNDEFINED_ERROR": "UNDEFINED ERROR"
+  },
+  "validation": {
+    "emailFormat": "Wrong email format",
+    "emailRequired": "Email is required",
+    "passwordFormat": "Incorrect password format",
+    "passwordRequired": "Password is required",
+    "passwordNoUppercase": "Password must include uppercase",
+    "passwordNoDigit": "Password must include numbers",
+    "passwordMinLength": "Should be at least {{count}} characters",
+    "phoneFormat": "Wrong phone format",
+    "phoneRequired": "Phone is required",
+    "maxLength": "The maximum length allowed is {{count}}"
+  },
+  "banner": {
+    "SignUp" : "Sign up",
+    "uWin": "TAP SPIN TO WIN!",
+    "uWinT": "You win",
+    "bonus": "BONUS",
+    "fs": " FREE SPINS",
+    "center": "SPIN WHEEL",
+    "congrat": "Congratulations!",
+    "uWon": "You have won:",
+    "spinAgain" : "SPIN AGAIN"
+  },
+  "wheel": {
+    "cashback": "40% CASHBACK",
+    "usdt": "100 Usdt",
+    "bonus": "100% bonus",
+    "fs": "70 FS",
+    "doge": "150 DOGE",
+    "tr": "try again",
+    "btc": "1 btc",
+    "bonus2": "200% bonus",
+    "fs2": "200 FS",
+    "trx": "250 TRX"
+  }
+}

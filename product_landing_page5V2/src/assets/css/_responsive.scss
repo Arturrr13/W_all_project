@@ -1,0 +1,721 @@
+body, html{
+    @media  screen and (max-width:1025px){
+        html, body{
+            font-size: 1.562dvw; // 1024px
+        }
+
+        .section__wrapper{
+            max-width: em(924);
+            padding: em(32) 0;
+        }
+
+        .hero.section__wrapper{
+            padding: em(48) 0 em(32);
+        }
+
+        .br-1024, .splide__token{
+            display: block;
+        }
+
+        .hero{
+            &__top{
+                &--bonusTx{
+                    @include text(#ffffff, em(48), 400, normal);
+                    padding-top: .3em;
+                }
+
+                &--fsTx{
+                    max-width: 7em;
+                    font-size: em(75);
+                }
+            }
+        
+            &__bottom{
+                @include flex(false, flex-start, space-between, false);
+                z-index: 2;
+                padding: em(48) em(20) em(5) 0;
+                
+                &--nomination{
+                    border-radius: em(18);
+                    @include flex(false, false, false, em(18));
+                    padding: em(18);
+                }
+        
+                &--nominationImg{
+                    width: em(92);
+                }
+        
+                &--nominationTx{
+                    @include flex(column, flex-start, false, false)
+                }
+        
+                &--nominationTitle{
+                    @include text(#FFFFFF, em(22), 700, normal)
+                }
+        
+                &--nominationNom{
+                    @include text(#FFFFFF99, em(11), 400, normal)
+                }
+            }
+        
+            &__CH{
+                right: em(-200);
+        
+                &--pers{
+                    width: em(600);
+                }
+        
+                &--light{
+                    right: em(80);
+                    top: em(90);
+                }
+        
+                &--light2{
+                    top: em(60);
+                    left: em(90);
+                }
+        
+                &--light3{
+                    top: em(110);
+                    left: em(40);
+                }
+        
+                &--token{
+                    width: em(170);
+                    right: em(110);
+                    top: em(130);
+                }
+        
+                &--zipper{
+                    right: em(30);
+                    top: em(-190);
+                }
+            }
+        }
+
+        .uGame{
+            &__gallery{
+                &--video{
+                    height: em(172);
+                }
+            }
+        }
+
+        .token{
+            &.section__wrapper{
+                margin: unset;
+                max-width: unset;
+            }
+
+            &__main{
+                justify-content: center;
+
+                &--cards{
+                    display: none;
+                }
+
+                &--text{
+                    max-width: em(924);
+                }
+
+                .coin1{
+                    width: em(146);
+                    left: em(87);
+                    bottom: em(-307);
+                }
+        
+                .coin2{
+                    z-index: 1;
+                    top: em(119);
+                    left: em(600);
+                }
+        
+                .coin3{
+                    left: unset;
+                    right: 0;
+                }
+            }
+        }
+
+        .vip{
+            &__cards{
+                &--card{
+                    flex-basis: 31.75%;
+                    &:nth-child(4), &:nth-child(5){
+                        flex-basis: 48.75%;
+                    }
+                }
+            }
+
+            &__maxwin{
+                border-radius: em(150);
+                padding: em(60);
+        
+                &--amount{
+                    height: em(370);
+                    border-radius: em(90);
+                    box-shadow: 0 em(48) em(120) 0 #040024, 0 em(32) em(80) 0 #28215A;
+        
+                    .value{
+                        font-size: em(50);
+                    }
+        
+                    .MW{
+                        font-size: em(65);
+                    }
+        
+                    .coin{
+                        &--1{
+                            width: em(160);
+                            right: em(-58);
+                            top: em(48);
+                        }
+        
+                        &--2{
+                            width: em(245);
+                            top: em(-95);
+                            right: em(50);
+                        }
+        
+                        &--3{
+                            width: em(220);
+                            top: em(-93);
+                            left: em(40);
+                        }
+        
+                        &--4{
+                            width: em(230);
+                            bottom: em(-5);
+                            left: em(30);
+                        }
+        
+                        &--5{
+                            width: em(130);
+                            left: em(-48);
+                            top: em(48);
+                        }
+        
+                        &--6{
+                            width: em(145);
+                            right: em(35);
+                            bottom: em(-8);
+                        }
+                    }
+                }
+            }
+        }
+
+        .prizes{
+            padding: em(32) 0;
+
+            &__slide{
+                &--prPool{
+                    top: em(80);
+                    right: em(10);
+        
+                    p{
+                        font-size: em(20);
+
+                        &:nth-child(2){
+                            font-size: em(19);
+                        }
+                    }
+                }
+            }
+        }
+
+        // .slide__prizes{
+        //     max-width: em(972);
+        // }
+
+        .footer{
+            &__social{
+                &--link{
+                    width: em(220);
+                }
+            }
+        }
+    }
+
+    @media  screen and (max-width:1025px) and (min-width:769px) and (max-height:70vw){
+        .popUp.active{
+            font-size: 2dvh;
+        }
+    }
+
+    @media  screen and (max-width:768px){
+        html, body{
+            font-size: 4.1025dvw; // 390px
+        }
+
+        .section__wrapper{
+            max-width: em(342);
+        }
+
+        .t-90{
+            font-size: em(32);
+            font-weight: 400;
+        }
+
+        .t-48{
+            font-size: em(32);
+        }
+
+        .t-24{
+            font-size: em(16);
+        }
+
+        .btn{
+            width: em(342);
+            border-radius: em(16);
+            a{
+                padding: em(10) 0;
+            }
+        }
+
+        .splide__vip, .slide__prizes, .splide__uGame{
+            display: block;
+        }
+
+        .titleSvg{
+            width: em(32);
+            height: em(32);
+        }
+
+        .logo{
+            // padding-bottom: em(20);
+            padding-top: em(10);
+            a{
+                width: em(150);
+                
+            }
+        }
+
+        .hero.section__wrapper{
+            padding: em(10) 0 em(32);
+        }
+
+        .hero{
+            &__top{
+                &--welcomeTx{
+                    @include text(#A6A3FF, em(20), 400, 1em);
+                    padding-bottom: .5em;
+                }
+
+                &--fsTx{
+                    @include text(#ffffff, em(42), 700, 1em);
+                    max-width: unset;
+                }
+
+                &--bonusTx{
+                    @include text(#ffffff, em(32), 400, 1em);
+                    padding-top: .3em;
+                }
+            }
+        
+            &__bottom{
+                @include flex(column-reverse, flex-end, false, em(280));
+                padding: em(24) 0 em(32) 0;
+                
+                &--nomination{
+                    border-radius: em(11);
+                    @include flex(false, false, false, em(11));
+                    padding: em(11);
+                }
+        
+                &--nominationImg{
+                    width: em(60);
+                }
+        
+                &--nominationTx{
+                    @include flex(column, flex-start, false, false)
+                }
+        
+                &--nominationTitle{
+                    @include text(#FFFFFF, em(14), 700, 1em)
+                }
+        
+                &--nominationNom{
+                    @include text(#FFFFFF99, em(7), 400, 1em)
+                }
+            }
+        
+            &__CH{
+                right: em(-57);
+                bottom: em(142);
+        
+                &--pers{
+                    width: em(380);
+                }
+        
+                &--light{
+                    width: em(170);
+                    height: em(170);
+                    right: em(25);
+                    top: em(50);
+                    filter: blur(em(35));
+                }
+        
+                &--light2{
+                    width: em(53);
+                    height: em(53);
+                    top: em(40);
+                    left: em(50);
+                    filter: blur(em(10));
+                }
+        
+                &--light3{
+                    width: em(250);
+                    height: em(250);
+                    top: em(-30);
+                    left: em(120);
+                    filter: blur(em(150));
+                }
+        
+                &--token{
+                    width: em(110);
+                    right: em(60);
+                    top: em(80);
+                }
+        
+                &--zipper{
+                    width: em(110);
+                    right: em(10);
+                    top: em(-75);
+                    transform: rotate(55deg)
+                }
+            }
+        }
+
+        .dsnone{
+            display: none;
+        }
+
+        .uGame{
+            gap: em(24);
+
+            .titleSvg{
+                flex-shrink: 0;
+            }
+            
+            &__gallery{
+                &--top{
+                    flex-wrap: wrap;
+                    gap: em(16);
+
+                    .game{
+                        width: 100%;
+
+                        &:nth-child(2), &:nth-child(3){
+                            max-width: em(160);
+                        }
+                    }
+                }
+        
+                &--bot{
+                    display: none;
+                }
+            }
+        }
+
+        .token{
+            @include flex(column, false, false, em(24));
+        
+            &__title{
+                @include flex(column, center, center, em(16));
+        
+                &--top{
+                    @include flex(false, center, center, em(16));
+                }
+        
+                &--bot{
+                    @include text(#ffffff, em(20), 400, 110%);
+                    max-width: 17em;
+                }
+            }
+
+            &__btn{
+                position: relative;
+                z-index: 1;
+            }
+        
+            &__main{
+                &--text{
+                    max-width: em(342);
+                    p{
+                        @include text(#ffffff, em(38), 700, 110%);
+                    }
+                }
+        
+                &--card{
+                    padding-left: em(44);
+                    margin-top: em(6);
+                    border-radius: em(24);
+                    
+                    .path{
+                        height: em(88);
+                        padding: 0 0 0 em(40);
+                        transform: translate(em(-6), em(-6));
+                    }
+        
+                    .t-24{
+                        max-width: em(220);
+                        font-size: em(14);
+                    }
+        
+                    .frame{
+                        bottom: em(15);
+                        left: em(15);
+                        width: em(20);
+                        height: em(40);
+                        border-radius: em(64);
+                        &::after{
+                            width: em(20);
+                            height: em(40);
+                            border-radius: em(64);
+                        }
+                    }
+                }
+        
+                .coin1, .coin2, .coin3{
+                    display: none;
+                }
+            }
+        
+            &__light{
+                width: em(125);
+                height: em(125);
+                filter: blur(em(80));
+            }
+        
+            &__light1{
+                right: em(-50);
+                top: em(92);
+            }
+        
+            &__light2{
+                left: em(156);
+                bottom: 0;
+            }
+        
+            &__light3{
+                left: em(5);
+                top: em(145);
+            }
+        }
+
+        .vip{
+            &.section__wrapper{
+                max-width: unset;
+            }
+
+            &__title{
+                align-items: flex-start;
+                max-width: em(342);
+                margin: 0 auto;
+
+                &--top{
+                    @include flex(false, center, center, em(10));
+                }
+
+                &--bot{
+                    text-align: center;
+                }
+            }
+        
+            &__cards{
+                display: none;
+                &--card{
+                    flex-basis: unset;
+                    &:nth-child(4), &:nth-child(5){
+                        flex-basis: unset;
+                    }
+                }
+            }
+
+            &__maxwin{
+                border-radius: em(50);
+                padding: em(20);
+                width: em(342);
+                margin: 0 auto;
+        
+                &--amount{
+                    height: em(140);
+                    border-radius: em(30);
+                    box-shadow: 0 em(18) em(40) 0 #040024, 0 em(12) em(30) 0 #28215A;
+        
+                    .value{
+                        font-size: em(17);
+                    }
+        
+                    .MW{
+                        font-size: em(30);
+                    }
+        
+                    .coin{
+                        &--1{
+                            width: em(60);
+                            right: em(-18);
+                            top: em(28);
+                        }
+        
+                        &--2{
+                            width: em(95);
+                            top: em(-35);
+                            right: em(20);
+                        }
+        
+                        &--3{
+                            width: em(80);
+                            top: em(-23);
+                            left: em(15);
+                        }
+        
+                        &--4{
+                            width: em(80);
+                            bottom: em(-15);
+                            left: em(15);
+                        }
+        
+                        &--5{
+                            width: em(50);
+                            left: em(-18);
+                            top: em(18);
+                        }
+        
+                        &--6{
+                            width: em(55);
+                            right: em(15);
+                            bottom: em(-18);
+                        }
+                    }
+                }
+            }
+        }
+
+        .prizes{
+            &__title{
+                text-align: center;
+                &--top{
+                    @include text(#A6A3FF, em(20), 400, 105%);
+                }
+        
+                &--bot .t-120{
+                    @include text(#fff, em(52), 700, 100%)
+                }
+            }
+
+            &__btn{
+                margin: em(48) auto;
+            }
+
+            &__slide{
+                &--spaceman{
+                    display: none;
+                }
+            }
+        }
+
+        .footer{
+            @include flex(column, center, false, em(16));
+        
+            &__social{
+                border-radius: em(32);
+                width: 100%;
+        
+                &--link{
+                    width: 100%;
+                }
+            }
+        }
+
+        .form__box{
+            height: 100%;
+        }
+
+        .form{
+            width: 100dvw;
+            height: 100%;
+            border-radius: 0;
+
+            &__btn{
+                width: 100%;
+                padding: em(15) 0;
+                border-radius: em(16);
+                @include text(#fff, em(18), 400, 1em);
+            }
+
+            &__head img{
+                border-radius: 0;
+            }
+
+            &__head{
+                &--titleBlock{
+                    top: em(20);
+                    left: em(16);
+
+                    .logo{
+                        a{
+                            width: em(122);
+                            
+                        }
+                    }
+                    .playWin{
+                        font-size: em(20);
+                        padding-top: em(20);
+                    }
+                }
+            }
+        }
+
+        .popUp.active{
+            align-items: flex-start;
+            overflow-x: hidden;
+            overflow-y: auto;
+            background: #0F0C28;
+        }
+
+        .input{
+            @include text(#fff, em(18), 400, 125%);
+            &__label{
+                padding-bottom: em(10);
+                @include text(#fff, em(14), 400, 110%)
+            }
+        }
+
+        .field .error{
+            bottom: em(-5);
+            right: em(10);
+            border-radius: em(8);
+            padding: em(2) em(6);
+            @include text(#fff, .65em, 400, 1em);
+        }
+    }
+
+    @media  screen and (max-width:768px) and (max-height:160vw){
+        .popUp.active{
+            font-size: 2.1dvh;
+        }
+
+        .form{
+            width: em(500);
+            &__head{
+                &--titleBlock{
+                    top: em(28);
+                    left: em(24);
+
+                    .logo{
+                        a{
+                            width: em(152);
+
+                        }
+                    }
+                    .playWin{
+                        font-size: em(30);
+                        padding-top: em(15);
+                    }
+                }
+            }
+        }
+    }
+}

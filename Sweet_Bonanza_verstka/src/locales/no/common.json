@@ -1,0 +1,26 @@
+{
+    "title": "Title",
+    "banner": {
+      "SignUp" : "Registrer deg",
+      "uWin": "TRYKK SPIN FOR Å VINNE!",
+      "uWinT": "Du har vunnet",
+      "bonus": "BONUS",
+      "fs": " GRATISSPINN",
+      "center": "SPINN",
+      "congrat": "Gratulerer!",
+      "uWon": "Du har vunnet:",
+      "spinAgain" : "IGJEN"
+    },
+    "wheel": {
+      "cashback": "40% CASHBACK",
+      "usdt": "100 Usdt",
+      "bonus": "100% bonus",
+      "fs": "70 FS",
+      "doge": "150 DOGE",
+      "tr": "PRØV IGJEN",
+      "btc": "1 btc",
+      "bonus2": "200% bonus",
+      "fs2": "200 FS",
+      "trx": "250 TRX"
+    }
+}

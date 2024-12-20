@@ -1,0 +1,161 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    &:focus {
+        outline: none;
+    }
+}
+
+html, body{
+    width: 100%;
+    background: #0F0C28;
+    font-family: 'Stolzl', Arial;
+    font-size: 1.052vw; /// 1512px maket......nice size
+    color: #ffffff;
+    font-weight: 400;
+}
+
+
+a:hover, 
+button:hover{
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a, button {
+    transition: all .35s ease-in-out;
+    outline: none;
+    border: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+
+// -------------------------------------Main Styles-----------------------------------------
+.t-18{
+    font-size: em(18);
+    line-height: 125%; 
+}
+
+.t-20{
+    font-size: em(20);
+    line-height: 125%; 
+}
+
+.t-24{
+    font-size: em(24);
+    line-height: 120%;
+}
+
+.t-24-m{
+    font-weight: 500;
+}
+
+.t-48{
+    font-size: em(48);
+    font-weight: 500;
+    line-height: 105%;
+}
+
+.t-90{
+    font-size: em(90);
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.btn{
+    font: inherit;
+    position: relative;
+    z-index: 1;
+    min-width: em(320);
+    max-width: 100%;
+    width: max-content;
+    border-radius: em(20);
+    border: em(1) solid #FFFFFF29;
+    background: radial-gradient(50% 100% at 50% 0%, #8C89FF 0%, #5B58EF 100%);
+    @include flex(false, center, center, false);
+    text-align: center;
+    transition: all .25s ease-in-out;
+    a{
+        padding: em(19) em(5);
+        font-size: em(20);
+        line-height: em(24); 
+        color: #ffffff;
+        width: 100%;
+        height: 100%;
+        @media (max-width: 1025px){
+            font-size: em(18);
+
+        }
+    }
+    &:hover{
+        border: em(1) solid transparent;
+        background: radial-gradient(50% 100% at 50% 0%, #BDBCFF 0%, #726EFF 100%);
+        box-shadow:  0 0 0 em(8) #7c7aff36;
+    }
+}
+
+.section__wrapper{
+    max-width: em(1152);
+    padding: em(60) 0;
+    margin: 0 auto;
+}
+
+
+// ---------------------------------------- SCROLL ----------------------------------------
+
+
+::-webkit-scrollbar {
+    width: rem(5);
+    position: relative;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 rem(5) #1A1B22; 
+    border-radius: rem(5);
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(133,79,221,1) 0%, rgba(75,109,174,1) 100%); 
+    border-radius: rem(5);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, rgb(116, 45, 230) 0%, rgb(47, 91, 174) 100%);
+}
+
+
+// ------------------------------------------ LENIS -----------------------------------------
+
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+}
+

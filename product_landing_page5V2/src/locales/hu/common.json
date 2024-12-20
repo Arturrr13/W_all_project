@@ -1,0 +1,123 @@
+{
+  "form": {
+    "registration": "Regisztráció",
+    "email": "Email",
+    "password": "Jelszó",
+    "phone": "Telefonszám",
+    "createAccount": "Fiók létrehozása",
+    "iAgreeWith": "A jelölőnégyzet kipipálásával a felhasználó kijelenti, hogy elmúlt 18 éves, és elolvasta, megértette és elfogadta a ",
+    "termsAndConditions": "Felhasználási feltételeket.",
+    "emailPl": "Adja meg az e-mail címét",
+    "passwordPl": "Adja meg a jelszavát"
+  },
+  "errors": {
+    "CAPTCHA_ERROR": "CAPTCHA HIBA",
+    "EMAIL_BLANK": "E-MAIL ÜRES",
+    "EMAIL_MAX_LENGTH": "E-MAIL MAX. HOSSZ",
+    "EMAIL_INCORRECT_FORMAT": "E-MAIL HELYTELEN FORMÁTUM",
+    "EMAIL_ALREADY_TAKEN": "AZ E-MAIL MÁR FOGLALT",
+    "PHONE_NUMBER_BLANK": "TELEFONSZÁM ÜRES",
+    "PHONE_NUMBER_INCORRECT_FORMAT": "TELEFONSZÁM HELYTELEN FORMÁTUM",
+    "PHONE_NUMBER_FORBIDDEN": "TELEFONSZÁM TILTOTT",
+    "PHONE_NUMBER_TAKEN": "A TELEFONSZÁM FOGLALT",
+    "PASSWORD_BLANK": "A JELSZÓ ÜRES",
+    "PASSWORD_INCORRECT_FORMAT_NO_UPPER_CASE": "HELYTELEN JELSZÓFORMÁTUM NINCS NAGYBETŰ",
+    "PASSWORD_INCORRECT_FORMAT_NO_DIGIT": "HELYTELEN JELSZÓFORMÁTUM NINCS SZÁM",
+    "PASSWORD_INCORRECT_FORMAT": "HELYTELEN JELSZÓFORMÁTUM",
+    "LANGUAGE_BLANK": "NYELV ÜRES"
+  },
+  "main": {
+    "wb": "Üdvözlő bónusz",
+    "bonus": "200",
+    "bonusFs": "ingyenes pörgetés és",
+    "bonusSec": "300% akár",
+    "bonusSecB": "1 825 000 HUF",
+    "reg": "Regisztráció",
+    "newCas": "Legjobb új",
+    "newCasSec": "kaszinó",
+    "nom": "jelölés",
+    "uGames": "A kedvenc játékaid 4000+",
+    "uGamesBtn": "Játssz 4000+ játékon",
+    "token": "A WEFT Token az IGaming evolúció új lépése!",
+    "tokenEnj": "Élvezd az akár 300%-os profitot a Hold2Earn-nel! ",
+    "tokenSlider": {
+      "1": {
+        "f": false,
+        "b": "Minden hűséges résztvevő ",
+        "s": "valódi haszonélvező!"
+      },
+      "2": {
+        "f": "Szerezz százalékos részesedést a",
+        "b": "platform nyereségéből!",
+        "s": false
+      },
+      "3": {
+        "f": "Oldj fel",
+        "b": "exkluzív előnyöket",
+        "s": " a WEFT tokenekkel!"
+      }
+    },
+    "tokenBtn": "Legyél WEFT-tulajdonos",
+    "vip": "VIP Program",
+    "vipSec": "Tapasztald meg a személyre szabott VIP-szolgáltatás előnyeit még ma!",
+    "vipAmount": 732000000,
+    "vipCurrency": "HUF",
+    "counter": 237691,
+    "vipSlider": {
+      "1": {
+        "tt": "Akár tp 7 300 00000 HUF",
+        "tb": "megnövelt jackpotok"
+      },
+      "2": {
+        "tt": "A kriptofizetésekhez",
+        "tb": "nincs szükség KYC-re"
+      },
+      "3": {
+        "tt": "Egy privát VIP menedzser",
+        "tb": "áll rendelkezésre 24/7"
+      }
+      ,
+      "4": {
+        "tt": "Elsőbbségi tagság",
+        "tb": "10k USDT befizetéstől"
+      },
+      "5": {
+        "tt": "Egyedi testreszabott ",
+        "tb": "VIP jutalomrendszer"
+      }
+    },
+    "vipBtn": "Légy te is VIP tag",
+    "prizes": "Versenyek minden héten",
+    "prizesSec": "Szerezz ",
+    "prizesSecAmount": "100 000 000",
+    "prizesTh": "WFT JUTALMAT",
+    "prizesBtn": "Nyerj ejtő nyereményeket!",
+
+    "playWin1": "200 FREE SPINS",
+    "playWin2": "300% <small>legfeljebb</small>",
+    "playWin3": "1 825 000 HUF",
+
+
+    "prizesSlide1": "7,900,380,000 HUF",
+    "prizesSlide2": "118,000,000 HUF",
+
+    "prizeSlider":{
+      "1": {
+        "name": "Drops & Wins Slots",
+        "amount": "15 840 000 HUFs"
+      },
+      "2": {
+          "name": "Crash & Win",
+          "amount": "1 386 000 HUF"
+      },
+      "3": {
+          "name": "WEFT Showdown",
+          "amount": "20 000 WEFT"
+      },
+      "4": {
+          "name": "WEISS Neon Ride",
+          "amount": "100 000 WEFT"
+      }
+    }
+  }
+}

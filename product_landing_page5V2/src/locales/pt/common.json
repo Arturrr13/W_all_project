@@ -1,0 +1,123 @@
+{
+  "form": {
+    "registration": "Inscrição",
+    "email": "Email",
+    "password": "Senha",
+    "phone": "Número de telefone",
+    "createAccount": "Criar uma conta",
+    "iAgreeWith": "Ao marcar esta caixa para se registar neste site, o utilizador declara ser maior de 18 anos e ter lido, compreendido e aceite os",
+    "termsAndConditions": "Termos e Condições.",
+    "emailPl": "Insira o seu e-mail",
+    "passwordPl": "Insira a sua palavra-passe"
+  },
+  "errors": {
+    "CAPTCHA_ERROR": "ERRO DE CAPTCHA",
+    "EMAIL_BLANK": "EMAIL (EM BRANCO)",
+    "EMAIL_MAX_LENGTH": "EMAIL (COMPRIMENTO MÁXIMO)",
+    "EMAIL_INCORRECT_FORMAT": "EMAIL (FORMATO INCORRETO)",
+    "EMAIL_ALREADY_TAKEN": "EMAIL (JÁ UTILIZADO)",
+    "PHONE_NUMBER_BLANK": "NÚMERO DE TELEFONE (EM BRANCO)",
+    "PHONE_NUMBER_INCORRECT_FORMAT": "NÚMERO DE TELEFONE (FORMATO INCORRETO)",
+    "PHONE_NUMBER_FORBIDDEN": "NÚMERO DE TELEFONE (PROIBIDO)",
+    "PHONE_NUMBER_TAKEN": "NÚMERO DE TELEFONE (JÁ UTILIZADO)",
+    "PASSWORD_BLANK": "PALAVRA-PASSE (EM BRANCO)",
+    "PASSWORD_INCORRECT_FORMAT_NO_UPPER_CASE": "PALAVRA-PASSE (FORMATO INCORRETO SEM MAIÚSCULAS)",
+    "PASSWORD_INCORRECT_FORMAT_NO_DIGIT": "PALAVRA-PASSE (FORMATO INCORRETO SEM ALGARISMOS)",
+    "PASSWORD_INCORRECT_FORMAT": "PALAVRA-PASSE (FORMATO INCORRETO)",
+    "LANGUAGE_BLANK": "IDIOMA (EM BRANCO)"
+  },
+  "main": {
+    "wb": "Bónus de boas-vindas",
+    "bonus": "200",
+    "bonusFs": "Rodadas grátis",
+    "bonusSec": "300% até",
+    "bonusSecB": "4600 EUR",
+    "reg": "Registo",
+    "newCas": "melhores",
+    "newCasSec": "casinos",
+    "nom": "Nomeado ",
+    "uGames": "Os seus jogos favoritos 4 000+",
+    "uGamesBtn": "Jogue 4 000+ jogos",
+    "token": "O Token WEFT é o novo marco na evolução do IGaming!",
+    "tokenEnj": "Aproveite até 300% de lucro com Hold2Earn!",
+    "tokenSlider": {
+      "1": {
+        "f": false,
+        "b": "Cada participante fiel é um",
+        "s": "verdadeiro beneficiado!"
+      },
+      "2": {
+        "f": "Ganhe uma percentagem",
+        "b": "dos lucros da plataforma!",
+        "s": false
+      },
+      "3": {
+        "f": "Desbloqueie",
+        "b": "benefícios exclusivos",
+        "s": "com tokens WEFT!"
+      }
+    },
+    "tokenBtn": "Torne-se titular de WEFT",
+    "vip": "Programa VIP",
+    "vipSec": "Experimente os benefícios de um tratamento VIP personalizado hoje mesmo!",
+    "vipAmount": 1840900,
+    "vipCurrency": "EUR",
+    "counter": 1691,
+    "vipSlider": {
+      "1": {
+        "tt": "Até 1 850 000 EUR",
+        "tb": "jackpots aumentados"
+      },
+      "2": {
+        "tt": "Não é necessário KYC",
+        "tb": "para pagamentos com criptomoedas"
+      },
+      "3": {
+        "tt": "Gerente VIP",
+        "tb": "disponível 24/7"
+      }
+      ,
+      "4": {
+        "tt": "Associação prioritária",
+        "tb": "a partir de um depósito de 10k USDT"
+      },
+      "5": {
+        "tt": "Sistema personalizado",
+        "tb": "de recompensas VIP"
+      }
+    },
+    "vipBtn": "Tornar-se VIP",
+    "prizes": "Torneios semanais",
+    "prizesSec": "GANHE ",
+    "prizesSecAmount": "100 000 000",
+    "prizesTh": "RECOMPENSAS WEFT",
+    "prizesBtn": "Ganhe prémios incríveis!",
+
+    "playWin1": "200 FREE SPINS",
+    "playWin2": "300% até",
+    "playWin3": "4600 EUR",
+
+
+    "prizesSlide1": "€ 2,000, 000",
+    "prizesSlide2": "€ 300,000",
+
+    "prizeSlider":{
+      "1": {
+        "name": "Drops & Wins Slots",
+        "amount": "40 000 EURO"
+      },
+      "2": {
+          "name": "Crash & Win",
+          "amount": "3 500 EURO"
+      },
+      "3": {
+          "name": "WEFT Showdown",
+          "amount": "20 000 WEFT"
+      },
+      "4": {
+          "name": "WEISS Neon Ride",
+          "amount": "100 000 WEFT"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Title",
+  "banner": {
+    "SignUp" : "Regisztráció",
+    "uWin": "PÖRGÉS, HOGY NYERJ!",
+    "uWinT": "Nyertél",
+    "bonus": "BÓNUSZ",
+    "fs": " INGYENES PÖRGETÉS",
+    "center": "PÖRGÉS",
+    "congrat": "Gratulálok!",
+    "uWon": "Nyertél:",
+    "spinAgain" : "ÚJRA"
+  },
+  "wheel": {
+    "cashback": "40% CASHBACK",
+    "usdt": "100 Usdt",
+    "bonus": "100% BÓNUSZ",
+    "fs": "70 FS",
+    "doge": "150 DOGE",
+    "tr": "ÚJRA",
+    "btc": "1 btc",
+    "bonus2": "200% BÓNUSZ",
+    "fs2": "200 FS",
+    "trx": "250 TRX"
+  }
+}

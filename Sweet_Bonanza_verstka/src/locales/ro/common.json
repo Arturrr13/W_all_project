@@ -1,0 +1,26 @@
+{
+    "title": "Title",
+    "banner": {
+      "SignUp" : "Înregistrare",
+      "uWin": "SPIN PENTRU CÂSTIGĂ!",
+      "uWinT": "Ai câștigat",
+      "bonus": "BONUS",
+      "fs": " ROTIRI GRATUITE",
+      "center": "ÎNVÂRTE",
+      "congrat": "Felicitări!",
+      "uWon": "Ai câștigat:",
+      "spinAgain" : "DIN NOU"
+    },
+    "wheel": {
+      "cashback": "40% CASHBACK",
+      "usdt": "100 Usdt",
+      "bonus": "100% bonus",
+      "fs": "70 FS",
+      "doge": "150 DOGE",
+      "tr": "NOU",
+      "btc": "1 btc",
+      "bonus2": "200% bonus",
+      "fs2": "200 FS",
+      "trx": "250 TRX"
+    }
+}

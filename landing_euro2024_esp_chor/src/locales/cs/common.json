@@ -1,0 +1,27 @@
+{
+  "form": {
+    "registration": "Registrace",
+    "email": "e-mail",
+    "password": "Heslo",
+    "phone": "Telefonní číslo",
+    "createAccount": "Vytvořit účet",
+    "iAgreeWith": "Souhlasím s",
+    "termsAndConditions": "obchodními podmínkami"
+  },
+  "errors": {
+    "CAPTCHA_ERROR": "CHYBA CAPTCHA",
+    "EMAIL_BLANK": "PRÁZDNÝ E-MAIL",
+    "EMAIL_MAX_LENGTH": "MAX. DÉLKA E-MAILU",
+    "EMAIL_INCORRECT_FORMAT": "NESPRÁVNÝ FORMÁT E-MAILU",
+    "EMAIL_ALREADY_TAKEN": "E-MAIL SE JIŽ POUŽÍVÁ",
+    "PHONE_NUMBER_BLANK": "PRÁZDNÉ TELEFONNÍ ČÍSLO",
+    "PHONE_NUMBER_INCORRECT_FORMAT": "NESPRÁVNÝ FORMÁT TELEFONNÍHO ČÍSLA",
+    "PHONE_NUMBER_FORBIDDEN": "ZAKÁZANÉ TELEFONNÍ ČÍSLO",
+    "PHONE_NUMBER_TAKEN": "TELEFONNÍ ČÍSLO SE JIŽ POUŽÍVÁ",
+    "PASSWORD_BLANK": "PRÁZDNÉ HESLO",
+    "PASSWORD_INCORRECT_FORMAT_NO_UPPER_CASE": "NESPRÁVNÝ FORMÁT HESLA – ŽÁDNÉ VELKÉ PÍSMENO",
+    "PASSWORD_INCORRECT_FORMAT_NO_DIGIT": "NESPRÁVNÝ FORMÁT HESLA – ŽÁDNÁ ČÍSLICE",
+    "PASSWORD_INCORRECT_FORMAT": "NESPRÁVNÝ FORMÁT HESLA",
+    "LANGUAGE_BLANK": "PRÁZDNÝ JAZYK"
+  }
+}
